@@ -70,8 +70,6 @@ function Card() {
                         <img className='h-96 w-full m-2 object-contain ' src='./bar-2.jpeg' alt='photo' />
                     </div>
                 </div>
-                
-
             </div>
 
             <div className='flex justify-center items-center mb-20'>
@@ -134,28 +132,86 @@ function Card() {
             </div>
 
             <div className='flex justify-center items-center mb-20'>
-            <p className='w-1/3 text-xl italic text-center'>"Encuentros"</p>
+            <p className='w-1/3 text-xl italic text-center'>"4/4"</p>
                 <div className='flex w-1/3 gap-0 items-center'>
                     <div className='flex flex-col w-full gap-1'>
-                        <img className='w-full rounded h-48 object-cover object-top' src='./junta-1.jpeg' alt='photo' />
-                        <img className='w-full rounded h-48 object-cover' src='./junta-2.jpeg' alt='photo' />
+                        <img className='w-full rounded h-48 object-cover object-top' src='./abril-3.jpeg' alt='photo' />
+                        <img className='w-full rounded h-48 object-cover' src='./abril-2.jpeg' alt='photo' />
                     </div>
                 </div>
             </div>
 
             <div className='flex justify-center items-center mb-20'>
                 <div className='flex w-1/3 gap-2 items-center'>
-                    <div className='flex flex-col  gap-1'>
-                        <img className='w-48 rounded h-48 object-cover' src='./europa-3.jpeg' alt='photo' />
-                        <img className='w-48 rounded h-48 object-cover' src='./europa-1.jpeg' alt='photo' />
-                    </div>
-                    <div className='flex flex-col  gap-1'>
-                        <img className='w-48 rounded h-48 object-cover' src='./europa-2.jpeg' alt='photo' />
-                        <img className='w-48 rounded h-48 object-cover' src='./europa-4.jpeg' alt='photo' />
+                    <div className='flex gap-1'>
+                        <img className='w-48 rounded h-54 object-cover' src='./abasto-2.jpeg' alt='photo' />
+                        <img className='w-48 rounded h-54 object-cover' src='./abasto-1.jpeg' alt='photo' />
                     </div>
                 </div>
-                <p className='w-1/3 text-xl italic text-center'>"Europa"</p>
+                <p className='w-1/3 text-xl italic text-center'>"19/4"</p>
             </div>
+
+            <div className='flex justify-center items-center mb-20'>
+            <p className='w-1/3 text-xl italic text-center'>"13/5"</p>
+                <div className='flex w-1/3 gap-0 items-center'>
+                    <div className='flex flex-col w-full gap-1'>
+                        <img className='w-full rounded h-48 object-cover object-top' src='./lindos-1.jpeg' alt='photo' />
+                        <img className='w-full rounded h-48 object-cover' src='./lindos-2.jpeg' alt='photo' />
+                    </div>
+                </div>
+            </div>
+
+
+            <div className='flex justify-center items-center mb-20'>
+                <div className='flex w-1/3 gap-2 items-center'>
+                    <div className='flex flex-col  gap-1'>
+                        <img className='w-60 rounded h-48 object-cover' src='./nose-3.jpeg' alt='photo' />
+                        <img className='w-60 rounded h-48 object-cover' src='./nose-1.jpeg' alt='photo' />
+                    </div>
+                    <div className='flex flex-col  gap-1'>
+                        <img className='w-60 rounded h-48 object-cover' src='./nose-2.jpeg' alt='photo' />
+                        <img className='w-60 rounded h-48 object-cover' src='./nose-4.jpeg' alt='photo' />
+                    </div>
+                </div>
+                <p className='w-1/3 text-xl italic text-center'>"26/5"</p>
+            </div>
+
+
+            <div className='flex justify-center items-center mb-20'>
+            <p className='w-1/3 text-xl italic text-center'>"Tu hermosa gente"</p>
+                <div className='flex w-1/3 gap-0 items-center'>
+                    <div className='flex flex-col w-full gap-1'>
+                        <img className='w-full rounded h-56 object-cover object-top' src='./gente-1.jpeg' alt='photo' />
+                        <img className='w-full rounded h-56 object-cover' src='./gente-2.jpeg' alt='photo' />
+                    </div>
+                </div>
+            </div>
+
+            <div className='flex justify-center items-center mb-20'>
+                <div className='flex w-1/3 gap-0 items-center'>
+                    <div className='flex flex-col w-full gap-1'>
+                        <img className='w-full rounded h-56 object-cover object-top' src='./otros-1.jpeg' alt='photo' />
+                        <img className='w-full rounded h-56 object-cover' src='./otros-2.jpeg' alt='photo' />
+                    </div>
+                </div>
+                <p className='w-1/3 text-xl italic text-center'>"Tu hermosa gente x2 :p"</p>
+            </div>
+
+            
+
+                <div className='flex justify-center items-center mb-20'>
+                <p className='w-1/3 text-xl italic text-center'>"Europa"</p>
+                    <div className='flex w-1/3 gap-2 items-center'>
+                        <div className='flex flex-col  gap-1'>
+                            <img className='w-48 rounded h-48 object-cover' src='./europa-3.jpeg' alt='photo' />
+                            <img className='w-48 rounded h-48 object-cover' src='./europa-1.jpeg' alt='photo' />
+                        </div>
+                        <div className='flex flex-col  gap-1'>
+                            <img className='w-48 rounded h-48 object-cover' src='./europa-2.jpeg' alt='photo' />
+                            <img className='w-48 rounded h-48 object-cover' src='./europa-4.jpeg' alt='photo' />
+                        </div>
+                    </div>
+                </div>
         </>
     )
 }

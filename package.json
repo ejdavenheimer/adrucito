@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ejdavenheimer.github.io/adrucito/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,11 +13,12 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "gh-pages": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
-    "gh-pages": "^4.0.0"
+    "swiper": "^11.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
